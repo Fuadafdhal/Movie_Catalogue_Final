@@ -1,0 +1,95 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_marginTop="@dimen/margin_medium"
+        android:id="@+id/layout_release_remainder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/margin_big"
+        android:background="?selectableItemBackground">
+
+        <TextView
+            android:id="@+id/tv_title_release_remainder"
+            style="@style/TextView.MediumBold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/setting_release_remainder" />
+
+        <TextView
+            android:id="@+id/tv_desc_release_remainder"
+            style="@style/TextView.Medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/setting_release_remainder_detail"
+            android:layout_below="@id/tv_title_release_remainder"/>
+
+        <Switch
+            android:id="@+id/sw_release_remainder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="?selectableItemBackgroundBorderless"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_daily_remainder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/margin_big"
+        android:background="?selectableItemBackground">
+
+        <TextView
+            android:id="@+id/tv_title_daily_remainder"
+            style="@style/TextView.MediumBold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/setting_daily_remainder" />
+
+        <TextView
+            android:id="@+id/tv_desc_daily_remainder"
+            style="@style/TextView.Medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/setting_daily_remainder_detail"
+            android:layout_below="@id/tv_title_daily_remainder"/>
+
+        <Switch
+            android:id="@+id/sw_daily_remainder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="?selectableItemBackgroundBorderless"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_language"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/margin_big"
+        android:background="?selectableItemBackground">
+
+        <TextView
+            android:id="@+id/tv_title_language"
+            style="@style/TextView.MediumBold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/menu_localization" />
+
+        <TextView
+            android:id="@+id/tv_desc_language"
+            style="@style/TextView.Medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="USA"
+            android:layout_below="@id/tv_title_language"/>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name" translatable="false">Movie Catalogue</string>
+
+    <string name="no_internet_connection">Masalah jaringan, cek koneksi internet Anda dan silakan coba lagi</string>
+    <string name="server_under_maintenance">Server sedang dalam pemeliharaan</string>
+    <string name="cannot_connect_toserver">Tidak dapat berkomunikasi dengan server, coba beberapa saat lagi</string>
+
+    <string name="title" translatable="false">Title</string>
+    <string name="lbl_movie">Film</string>
+    <string name="lbl_tvshow">Acara TV</string>
+    <string name="lbl_favorite">Favorit</string>
+
+    <string name="menu_localization">Bahasa</string>
+    <string name="menu_setting">Pengaturan</string>
+
+    <string name="daily_remainder_msg">Movie Catalogue merindukanmu!</string>
+
+    <string name="setting_daily_remainder">Pengingat Harian</string>
+    <string name="setting_daily_remainder_detail">Pengingat kembali ke aplikasi</string>
+
+    <string name="setting_release_remainder">Pengingat Release</string>
+    <string name="setting_release_remainder_detail">Pengingat film terbaru hari ini</string>
+    <string name="release_remainder_msg"> telah rilis hari ini!</string>
+
+    <string name="empty_data">Data kosong</string>
+
+    <string name="overview">Kesimpulan</string>
+    <string name="imagebackground">ImageBackground</string>
+    <string name="lorem_ipsum" translatable="false">Lorem Ipsum hanyalah teks tiruan dari industri percetakan dan penataan huruf. Lorem Ipsum telah menjadi teks boneka standar industri sejak tahun 1500-an, ketika sebuah printer yang tidak dikenal mengambil jenis galley dan mengacaknya untuk membuat buku spesimen jenis. Ini telah bertahan tidak hanya lima abad, tetapi juga lompatan ke pengaturan huruf elektronik, tetap pada dasarnya tidak berubah. Itu dipopulerkan pada 1960-an dengan merilis lembar Letraset yang mengandung bagian Lorem Ipsum, dan yang lebih baru dengan perangkat lunak desktop publishing seperti Aldus PageMaker termasuk versi Lorem Ipsum.</string>
+    <string name="original_language" translatable="false">Bahasa asli</string>
+    <string name="rating">Peringkat</string>
+    <string name="release_date">Tanggal Rilis</string>
+    <string name="change_language_settings">Ganti Bahasa</string>
+    <string name="favorite_list">Daftar Favorit</string>
+    <string name="added_favorite">Ditambahkan ke favorit Anda</string>
+    <string name="removed_favorite">Dihapus dari favorit Anda</string>
+    <string name="failed_to_add_favorite">"Gagal menambah data"</string>
+    <string name="failed_to_removed_favorite">Gagal menghapus data</string>
+    <string name="favorite_list_not_found">Daftar favorit tidak ditemukan</string>
+    <string name="search_hint">Masukan Judul</string>
+
+    <string name="title_search">Search</string>
+
+    <string name="key_daily">Daily Reminder</string>
+    <string name="key_release">Release Reminder</string>
+    <string name="appwidget_text">Movie Favorite</string>
+    <string name="add_widget">Add widget</string>
+
+</resources>

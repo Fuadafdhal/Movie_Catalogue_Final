@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="no_internet_connection"> Network problem, check your internet connection and please try again </string>
+    <string name="server_under_maintenance"> The server is under maintenance </string>
+    <string name="cannot_connect_toserver"> Cannot communicate with server, please try again later </string>
+    <string name="lbl_movie"> Movie </string>
+    <string name="lbl_tvshow"> TV shows </string>
+    <string name="lbl_favorite"> Favorites </string>
+    <string name="menu_localization"> Language </string>
+    <string name="menu_setting"> Settings </string>
+    <string name="daily_remainder_msg"> Movie Catalog miss you! </string>
+    <string name="setting_daily_remainder"> Daily Reminder </string>
+    <string name="setting_daily_remainder_detail"> Reminder returning to the application </string>
+    <string name="setting_release_remainder"> Release Reminder </string>
+    <string name="setting_release_remainder_detail"> Reminder of today\'s latest movie </string>
+    <string name="release_remainder_msg"> has been released today! </string>
+    <string name="empty_data"> Data is empty </string>
+    <string name="overview"> Conclusion </string>
+    <string name="imagebackground"> ​​ImageBackground </string>
+    <string name="rating"> rating </string>
+    <string name="release_date"> Release Date </string>
+    <string name="change_language_settings"> Change Language </string>
+    <string name="favorite_list"> Favorite List </string>
+    <string name="added_favorite"> Added to your favorites </string>
+    <string name="removed_favorite"> Removed from your favorites </string>
+    <string name="failed_to_add_favorite"> "Failed to add data" </string>
+    <string name="failed_to_removed_favorite"> Failed to delete data </string>
+    <string name="favorite_list_not_found"> ​​Favorite list not found </string>
+    <string name="search_hint"> Enter Title </string>
+    <string name="title_search"> Search </string>
+    <string name="key_daily"> Daily Reminder </string>
+    <string name="key_release"> Release Reminder </string>
+    <string name="appwidget_text"> Movie Favorite </string>
+    <string name="add_widget"> Add widget </string>
+</resources>
